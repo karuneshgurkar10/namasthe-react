@@ -2,8 +2,10 @@
   "name": "namasthe-react",
   "version": "1.0.0",
   "description": "React",
-  "main": "index.js",
+  "source": "index.html",
   "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
     "test": "jest"
   },
   "repository": {
@@ -19,12 +21,12 @@
     "url": "https://github.com/karuneshgurkar10/namasthe-react/issues"
   },
   "homepage": "https://github.com/karuneshgurkar10/namasthe-react#readme",
-  "devDependencies": {
-    "parcel": "^2.8.2",
-    "process": "^0.11.10"
-  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
   }
 }
